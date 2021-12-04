@@ -189,7 +189,7 @@
             </button>
           {/each}
           {#if !currentVerbs.length}
-            <span class="selected-text">none selected!</span>
+            <span class="selected-text">aucun!</span>
           {/if}
         </div>
         <div class="verb-list">
@@ -209,7 +209,7 @@
         on:click={confirm}
         disabled={!currentVerbs.length}
         class="confirm-button">
-        Confirm!
+        OK!
       </button>
     </div>
   </div>

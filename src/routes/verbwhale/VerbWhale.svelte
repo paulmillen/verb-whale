@@ -177,7 +177,7 @@
         </button>
       </div>
       <Whale {isAnswerCorrect} />
-      <p>{`tense: ${translationData.tense}`}</p>
+      <p>{`temps: ${translationData.tense}`}</p>
       <div class="translation-text-container">
         <h1>{translationData.en}</h1>
       </div>
@@ -185,16 +185,16 @@
         <input
           on:keydown={() => (isAnswerCorrect = null)}
           bind:value
-          placeholder="translation" />
+          placeholder="écrivez" />
         <button
           class="check-button"
           disabled={value === ''}
           on:click|preventDefault={() => (isAnswerCorrect = value.toLowerCase() === translationData.fr)}>
-          check
+            vérifiez
         </button>
       </form>
       <button class="next-button" on:click={getNextTranslation}>
-        Another!
+          encore!
       </button>
       <SettingsModal
         on:closeModal={handleModalButtonClick}

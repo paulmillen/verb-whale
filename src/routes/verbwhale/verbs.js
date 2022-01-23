@@ -163,7 +163,7 @@ export const dictionary = {
         {
             "tense": "futur simple",
             "conjugations": {
-                "I will do": "je ferais",
+                "I will do": "je ferai",
                 "you will do": "tu feras",
                 "he will do": "il fera",
                 "she was": "elle fera",
@@ -223,7 +223,7 @@ export const dictionary = {
         {
             "tense": "futur simple",
             "conjugations": {
-                "I will go": "j'irais",
+                "I will go": "j'irai",
                 "you will go": "tu iras",
                 "he will go": "il ira",
                 "she was": "elle ira",
@@ -342,7 +342,7 @@ export const dictionary = {
                 "I will want": "je voudrai",
                 "you will want": "tu voudras",
                 "he will want": "il voudra",
-                "she was": "elle voudra",
+                "she will want": "elle voudra",
                 "we will want (informal)": "on voudra",
                 "we will want": "nous voudrons",
                 "you will want (pl)": "vous voudrez",
